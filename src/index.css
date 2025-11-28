@@ -1,0 +1,37 @@
+@import "tailwindcss";
+.kartinka{
+    background: url(/public/Group\ 20473.png);
+    background-size: cover;
+    background-position: center;
+}
+.cc{
+    background-color: rgb(16, 170, 85);
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+.cc:hover {
+    opacity: 0.9;
+}
+
+.vv{
+    background-color: rgb(16, 170, 85);
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.vv{
+    opacity: 0.5;
+}
+
+/* header{
+    position: fixed;
+    top: 0;
+    width: 100%; 
+    z-index: 1000; 
+} */
+
+.hfhfhf{
+    background: url(/public/listiki.png);
+    background-size: cover;
+    background-position: center;
+}
