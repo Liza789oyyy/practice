@@ -5,7 +5,7 @@ const BodyComponent = () => {
   return (
     <div className='kartinka'>
         <HeaderComponent />
-        <div className='p-25 30'>
+        <div className='p-25 '>
           <h1 className='font-semibold text-8xl capitalize text-[#495E4C] mb-5'>Чистый Воздух</h1>
           <h1 className='font-semibold text-8xl capitalize text-[#495E4C] mb-5'>Вместе С</h1>
           <h1 className='font-semibold text-9xl capitalize text-[#78C081] mb-5'>Pascal vent</h1>

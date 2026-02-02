@@ -1,7 +1,7 @@
 const AsoComponent = () => {
     return (
-        <div className="w-145 text-pretty ml-25 flex ">
-            <div className="mt-50">
+        <div className=" text-pretty ml-25 flex max-w-full mb-25">
+            <div className="w-145 mt-50">
                 <h1 className="font-semibold text-7xl capitalize text-[#495E4C]">Предоставляемые</h1>
                 <h1 className="font-semibold text-7xl capitalize text-[#495E4C]">услуги</h1>
                 <p className="font-normal text-xl text-[#848484] mt-10">При разработке проекта предложим техническое решение
@@ -10,7 +10,7 @@ const AsoComponent = () => {
                 <p className="font-normal text-xl text-[#848484] mt-10">Одинаково эффективно выполняем проектирование и монтаж на объектах любой сложности – от небольшой квартиры, до объектов со сложными 
                 технологическими процессами на основе действующей нормативной документации.</p>
             </div>
-            <div className="flex flex-col items-center ml-105 mt-25">
+            <div className="flex flex-col items-center mt-25 ml-auto mr-25">
                 <div className="flex rounded-t-[45px] flex-row px-3 pt-3 bg-[#D9FADD] w-fit">
                     <button id="ryj" className="text-[#7CA281] cursor-pointer font-normal flex gap-6 items-center px-6 py-4 rounded-tl-[40px] bg-[#FFFFFF]">Кондиционирование<img src="air.png" alt="xdgj," className="w-[33px] h-[27px]"/></button>
                     <button id="ryj" className="text-[#FFFFFF] cursor-pointer font-normal flex gap-6 items-center px-6 py-4 rounded-tr-[40px] bg-[#5CCD6A]">Система Вентиляции<img src="Group.png" alt="xdgj," className="w-[33px] h-[33px]"/></button>
